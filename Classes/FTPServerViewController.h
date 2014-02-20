@@ -1,17 +1,16 @@
 //
-//  iphoneLibTestViewController.h
+//  FTPServerViewController.h
 //  iphoneLibTest
 //
-//  Created by Richard Dearlove on 23/10/2008.
-//  Copyright DiddySoft 2008. All rights reserved.
+//  Created by gtcc on 2/19/14.
 //
-
+//
 #import <UIKit/UIKit.h>
 #import "NetworkController.h"
 
 @class FtpServer;
 
-@interface iphoneLibTestViewController : UIViewController {
+@interface FTPServerViewController : UIViewController {
 	FtpServer	*theServer;
 	NSString *baseDir;
 }
@@ -23,4 +22,3 @@
 - (void)stopFtpServer;
 
 @end
-

@@ -9,16 +9,16 @@
 #import <UIKit/UIKit.h>
 
 
-@class iphoneLibTestViewController;
+@class TabBarViewController;
 
 @interface iphoneLibTestAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    iphoneLibTestViewController *viewController;
+    TabBarViewController *viewController;
 
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet iphoneLibTestViewController *viewController;
+@property (nonatomic, retain) IBOutlet TabBarViewController *viewController;
 
 @end
 
